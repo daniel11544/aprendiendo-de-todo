@@ -1,0 +1,10 @@
+import os
+
+os.chdir("D:/")
+for lista in os.listdir("D:/"):
+    
+ 
+    if lista[0:13]=="y2mate.com - ":
+        os.rename(lista, lista[13:])
+        
+
